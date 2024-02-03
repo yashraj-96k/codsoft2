@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main{
+    background-image: url("Thailan_2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 627px;
+    width: 100%;
+
+}
+
+ul{
+    display: flex;
+    justify-content: end;
+    font-size: 25px;
+    margin-right: 100px;
+    
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 20px;
+    margin-top: 40px;
+    
+    
+    
+}
+li a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    
+}
+li a:hover{
+    border-top: 2px solid black;
+    color: black;
+    transition-duration: 0.5s;
+    
+}
+#home{
+    font-size: 2rem;
+    margin-left: 40px;
+    margin-top: 60px;
+    color: white;
+    
+}
+#home h2{
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+.heading1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f85959;
+}
+.heading2{
+    font-family: cursive;
+}
+.search{
+    display: flex;
+    margin-top: 20px;
+    height: 60px;
+}
+input{
+    width: 30%;
+    padding-left: 20px;
+    border: 2px solid black;
+    border-right: 0.1rem solid black;
+}
+.searchicon{
+    background-color: #f85959;
+    border: 2px solid black;
+    border-left: 1px solid black;
+    font-size: 20px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+select{
+    border: 2px solid black;
+    background-color: white;
+    width: 30%;
+    border-left: 0.1rem solid black;
+    border-right: 1px solid black;
+
+}
+.content1{
+    margin-top: 20px;
+    
+}
+.content1 p{
+    font-size: 1.4rem;
+}
+.content2{
+    margin-top: 20px;
+    display: flex;
+    color: black;
+}
+i{
+    margin-right: 5px;
+}
+.restaurant{
+    height: 60px;
+    width: 120px;
+    background-color: white;
+    border: 2px solid white;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.restaurant:hover{
+    background-color: #f85959;
+    border: 2px solid #f85959;
+    transition-duration: 0.4s;
+    color: white;
+    cursor: pointer;
+}
+.hotel{
+    height: 60px;
+    width: 120px;
+    background-color: white;
+    border: 2px solid white;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hotel:hover{
+    background-color: #f85959;
+    border: 2px solid #f85959;
+    transition-duration: 0.4s;
+    color: white;
+    cursor: pointer;
+}
+.place{
+    height: 60px;
+    width: 120px;
+    background-color: white;
+    border: 2px solid white;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.place:hover{
+    background-color: #f85959;
+    border: 2px solid #f85959;
+    transition-duration: 0.4s;
+    color: white;
+    cursor: pointer;
+}
+.shopping{
+    height: 60px;
+    width: 120px;
+    background-color: white;
+    border: 2px solid white;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopping:hover {
+    background-color: #f85959;
+    border: 2px solid #f85959;
+    transition-duration: 0.4s;
+    color: white;
+    cursor: pointer;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-right: 25px;
+
+
+}
+.box i{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    
+}
+.box p{
+    font-size: 1.3rem;
+}
+.guarantee{
+    border: 2px solid whitesmoke;
+    height: 200px;
+    width: 250px;
+    color: black;
+    background-color: whitesmoke;
+    padding-top: 50px;
+    
+    text-align: center;
+
+}
+
+
+.guarantee:hover{
+    background-color: #f85959;
+    border: 2px solid #f85959;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    color: white;
+}
+.love{
+    border: 2px solid whitesmoke;
+    height: 200px;
+    width: 250px;
+    color: black;
+    background-color: whitesmoke;
+    padding-top: 50px;
+    
+    text-align: center;
+}
+.love:hover{
+    background-color: #f85959;
+    border: 2px solid #f85959;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    color: white;
+}
+.agent{
+    border: 2px solid whitesmoke;
+    height: 200px;
+    width: 250px;
+    color: black;
+    background-color: whitesmoke;
+    padding-top: 50px;
+    text-align: center;
+
+}
+.agent:hover{
+    background-color: #f85959;
+    border: 2px solid #f85959;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    color: white;
+}
+.support{
+    border: 2px solid whitesmoke;
+    height: 200px;
+    width: 250px;
+    color: black;
+    background-color: whitesmoke;
+    padding-top: 50px;
+    
+    text-align: center;
+}
+.support:hover{
+    background-color: #f85959;
+    border: 2px solid #f85959;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    color: white;
+}
+
+#about{
+    margin-top: 50px;
+}
+.heading {
+    display: inline;
+}
+.heading h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Abox{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.Abox h1{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.Abox h2{
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Abox p{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box1{
+    height: 350px;
+    width: 400px;
+}
+.box2{
+    height: 150px;
+    width: 400px;
+}
+.box3{
+     height: 150px;
+    width: 400px;
+}
+
+
+
+
